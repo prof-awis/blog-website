@@ -1,0 +1,31 @@
+nav {
+  height: 8vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav > ul {
+  height: 100%;
+  display: flex;
+}
+nav > ul > li {
+  display: flex;
+  height: 100%;
+}
+
+nav > ul > li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  height: 100%;
+  padding: 0 2rem;
+  color: #fff;
+}
+
+nav > ul > li a:hover {
+  background: #3a3939;
+}

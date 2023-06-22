@@ -1,0 +1,32 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #b49494; */
+  height: 92vh;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  width: 60vw;
+  border: 1px solid #000;
+  border-radius: 2rem;
+  /* top: 10rem; */
+}
+
+.signInButton {
+  /* border: 1px solid #000; */
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  width: fit-content;
+  background: #000;
+  color: #fff;
+}
