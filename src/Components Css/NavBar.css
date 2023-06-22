@@ -9,6 +9,7 @@ nav {
 nav > ul {
   height: 100%;
   display: flex;
+  list-style: none;
 }
 nav > ul > li {
   display: flex;

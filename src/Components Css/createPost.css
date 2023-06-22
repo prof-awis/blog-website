@@ -1,0 +1,67 @@
+.createPost {
+  min-height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createPostContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 60vh;
+  width: 50%;
+  background: #000;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 2.5rem 2rem 3rem #474545;
+}
+
+.createPostContainer > h2 {
+  text-align: center;
+  padding: 0rem 2rem;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputPost {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.inputPost > label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.inputPost > input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+}
+
+.inputPost > textarea {
+  outline: none;
+}
+
+.submitPostButton {
+  background: #fff;
+  color: #000;
+  border: none;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.submitPostButton:hover {
+  background: #474545;
+  color: #fff;
+}

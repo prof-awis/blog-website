@@ -1,0 +1,48 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 92vh;
+  /* background: #967d7d; */
+  gap: 1rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0;
+  width: 60%;
+  color: #fff;
+  background: #000;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2.5rem 2rem 2rem #474545;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.deletepost > button {
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #000;
+  border-radius: 0.5rem;
+}
+
+.deletepost > button:hover {
+  color: #000;
+  background: #fff;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
