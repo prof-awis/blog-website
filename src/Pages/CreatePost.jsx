@@ -4,6 +4,8 @@ import { addDoc, collection } from "firebase/firestore";
 import { Await, useNavigate } from "react-router-dom";
 import { auth, db } from "../firebase-config";
 import { AiFillGoogleCircle } from "react-icons/ai";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const CreatePost = ({ isAuth }) => {
   const [title, setTitle] = useState("");
@@ -45,8 +47,8 @@ const CreatePost = ({ isAuth }) => {
           />
         </div>
         <div className="inputPost">
-          <label htmlFor="#">Post: </label>
-          <textarea
+          <label htmtextarealFor="#">Post: </label>
+          {/* <textarea
             name=""
             id=""
             cols="30"
@@ -55,7 +57,14 @@ const CreatePost = ({ isAuth }) => {
             onChange={(event) => {
               setPostText(event.target.value);
             }}
-          ></textarea>
+          ></textarea> */}
+          <ReactQuill
+            theme="snow"
+            style={{ width: "inherit" }}
+            className=""
+            value={postText}
+            onChange={(value) => setPostText(value)}
+          />
         </div>
         <button type="submit" className="submitPostButton" onClick={createPost}>
           <AiFillGoogleCircle />
