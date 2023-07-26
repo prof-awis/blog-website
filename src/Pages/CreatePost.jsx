@@ -19,6 +19,7 @@ const CreatePost = ({ isAuth }) => {
       title,
       postText,
       author: { name: auth.currentUser.displayName, id: auth.currentUser.uid },
+      timestamp: new Date().toString(),
     });
     navigate("/home");
   };
